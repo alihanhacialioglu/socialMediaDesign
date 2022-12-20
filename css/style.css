@@ -1,0 +1,105 @@
+body{
+    position:relative;
+    height:100vh;
+    background-color:gray;
+    }
+    
+    .container{
+    margin:auto;
+    padding:10px 0px;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    display:flex;
+    justify-content: space-around;
+    }
+    
+    .card{
+    width:25%;
+    position: relative;
+    }      
+    
+    .card-icon1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    box-shadow:1px 1px 4px 1px #3d3d3d;
+    transition:1.5s;
+    box-sizing: border-box;
+    background-image:linear-gradient(purple,red);
+    
+    }  
+    
+    .card-text{  
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    z-index: -1;
+    transition: 1.5s;
+    text-align: center;
+    box-sizing: border-box;
+    background-image:linear-gradient(white,gray,white); 
+    }
+     .card:hover .card-icon1{
+    transform:translateY(-50%);
+    }
+    
+    .card:hover .card-icon2{
+    transform:translateY(-50%);
+    }
+    
+    .card:hover .card-icon3{
+    transform:translateY(-50%);
+     }
+     
+     .card:hover .card-text{
+    transform:translateY(50%);
+    box-shadow:1px 1px 3px 1px #3d3d3d;
+    }   
+    
+    p{
+    font-weight: bold;
+    text-align: center;
+    font-size:25px;
+    color:white;
+    }
+    
+    .icon{
+    display:inline-block;
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    .text{
+    display:inline-block; 
+    margin-top: 50%;
+    font-size: 15px; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .card-icon2{
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    box-shadow:1px 1px 4px 1px #3d3d3d;
+    transition:1.5s;
+    box-sizing: border-box;
+    background-image:linear-gradient(blue,white);
+    }
+    
+    .card-icon3{
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    box-shadow:1px 1px 4px 1px #3d3d3d;
+    transition:1.5s;
+    box-sizing: border-box;
+    background-image:linear-gradient(green,white);
+    }
+    
+    
